@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeu des couleurs</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Press+Start+2P&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <h1>Appuie sur A pour démarrer</h1>
+        <!-- Création des boîtes de couleur -->
+        <div class="box-container">
+          <div class="row">
+            <div class="box" id="green-box"></div>
+            <div class="box" id="red-box"></div>
+          </div>
+          <div class="row">
+            <div class="box" id="yellow-box"></div>
+            <div class="box" id="blue-box"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Insertion de jQuery + liaison index.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
