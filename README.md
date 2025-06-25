@@ -2,7 +2,7 @@
 
 [![Simon Game Screenshot](screenshot-git.PNG)]()
 
-A fun and challenging memory game inspired by the classic **Simon** game. This version is built entirely with HTML, CSS, and JavaScript. The game shows a growing sequence of colors — your goal is to repeat the sequence correctly. One mistake and it's game over!
+FRENCH VERSION - A fun and challenging memory game inspired by the classic **Simon** game. This version is built entirely with HTML, CSS, and JavaScript. The game shows a growing sequence of colors — your goal is to repeat the sequence correctly. One mistake and it's game over!
 
 ## ✨ Features
 
